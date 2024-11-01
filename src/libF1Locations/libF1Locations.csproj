@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Dave Pusey</Authors>
+    <Company>Dave Pusey</Company>
+    <PackageProjectUrl>https://github.com/davepusey/libF1Locations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/davepusey/libF1Locations</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>Circuit and Country data for F1 events</Description>
+    <PackageId>DavePusey.libF1Locations</PackageId>
+    <Product>libF1Locations</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.24306.1139</Version>
+  </PropertyGroup>
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="&quot;C:\Program Files (x86)\Dave Pusey\SetAssemblyProperties\SetAssemblyProperties.exe&quot; &quot;$(ProjectPath)&quot;" />
+  </Target>
+</Project>
