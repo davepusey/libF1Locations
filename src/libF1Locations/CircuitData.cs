@@ -1,4 +1,4 @@
-﻿using libF1Locations;
+using libF1Locations;
 using System;
 
 namespace F1LiveTiming.Data
@@ -54,7 +54,7 @@ namespace F1LiveTiming.Data
 				case CircuitList.Catalunya:
 					ShortName = "Catalunya";
 					TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
-					Flag = new("https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg");
+                    Flag = new("https://upload.wikimedia.org/wikipedia/commons/2/24/Flag_of_the_Kingdom_of_Spain.svg");
 					break;
 				case CircuitList.Spielberg:
 					ShortName = "Spielberg";
