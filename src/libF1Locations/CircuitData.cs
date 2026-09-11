@@ -56,6 +56,11 @@ namespace F1LiveTiming.Data
 					TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
                     Flag = new("https://upload.wikimedia.org/wikipedia/commons/2/24/Flag_of_the_Kingdom_of_Spain.svg");
 					break;
+                case CircuitList.Madring:
+                    ShortName = "Madring";
+                    TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
+                    Flag = new("https://upload.wikimedia.org/wikipedia/commons/2/24/Flag_of_the_Kingdom_of_Spain.svg");
+                    break;
 				case CircuitList.Spielberg:
 					ShortName = "Spielberg";
 					TimeZone = libF1Locations.TimeZone.Get("Europe/Vienna");

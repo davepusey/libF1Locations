@@ -1,4 +1,4 @@
-﻿namespace libF1Locations
+namespace libF1Locations
 {
     public enum CircuitList : byte
     {
@@ -25,6 +25,7 @@
         Jeddah = 149,
         Lusail = 150,
         Miami = 151,
-        LasVegas = 152
+        LasVegas = 152,
+        Madring = 153
     }
 }
