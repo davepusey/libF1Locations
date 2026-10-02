@@ -1,4 +1,4 @@
-namespace libF1Locations
+﻿namespace libF1Locations
 {
     public enum CircuitList : byte
     {
@@ -8,6 +8,7 @@ namespace libF1Locations
         SpaFrancorchamps = 7,
         Austin = 9,
         Melbourne = 10,
+        Sepang = 12,
         Interlagos = 14,
         Catalunya = 15,
         Spielberg = 19,

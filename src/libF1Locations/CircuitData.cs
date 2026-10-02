@@ -1,4 +1,4 @@
-using libF1Locations;
+﻿using libF1Locations;
 using System;
 
 namespace F1LiveTiming.Data
@@ -51,17 +51,17 @@ namespace F1LiveTiming.Data
 					TimeZone = libF1Locations.TimeZone.Get("America/Sao_Paulo");
 					Flag = new("https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg");
 					break;
-				case CircuitList.Catalunya:
-					ShortName = "Catalunya";
-					TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
+                case CircuitList.Catalunya:
+                    ShortName = "Catalunya";
+                    TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
                     Flag = new("https://upload.wikimedia.org/wikipedia/commons/2/24/Flag_of_the_Kingdom_of_Spain.svg");
-					break;
+                    break;
                 case CircuitList.Madring:
                     ShortName = "Madring";
                     TimeZone = libF1Locations.TimeZone.Get("Europe/Madrid");
                     Flag = new("https://upload.wikimedia.org/wikipedia/commons/2/24/Flag_of_the_Kingdom_of_Spain.svg");
                     break;
-				case CircuitList.Spielberg:
+                case CircuitList.Spielberg:
 					ShortName = "Spielberg";
 					TimeZone = libF1Locations.TimeZone.Get("Europe/Vienna");
 					Flag = new("https://upload.wikimedia.org/wikipedia/commons/4/41/Flag_of_Austria.svg");
@@ -141,7 +141,12 @@ namespace F1LiveTiming.Data
 					TimeZone = libF1Locations.TimeZone.Get("America/Los_Angeles");
 					Flag = new("https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg");
 					break;
-				default:
+                case CircuitList.Sepang:
+					ShortName = "Kuala Lumpur";
+                    TimeZone = libF1Locations.TimeZone.Get("Asia/Kuala_Lumpur");
+                    Flag = new("https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg");
+					break;
+                default:
 					throw new ArgumentOutOfRangeException(nameof(key));
 			}
 		}

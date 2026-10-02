@@ -12,7 +12,7 @@
     <PackageId>DavePusey.libF1Locations</PackageId>
     <Product>libF1Locations</Product>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.26254.1317</Version>
+    <Version>1.0.26275.0811</Version>
   </PropertyGroup>
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="&quot;C:\Program Files (x86)\Dave Pusey\SetAssemblyProperties\SetAssemblyProperties.exe&quot; &quot;$(ProjectPath)&quot;" />
